@@ -15,6 +15,11 @@
     <link rel="shortcut icon" type="image/x-icon" href="assets/imgs/theme/favicon.svg">
     <!-- Template CSS -->
     <link rel="stylesheet" href="assets/css/main.css@v=3.4.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+
+    <link rel="stylesheet" href="assets/css/slick-carousel.css">
+     <link rel="stylesheet" href="assets/css/slick-theme.min.css">
+
 </head>
 
 <body>
