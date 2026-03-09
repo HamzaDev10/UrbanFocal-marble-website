@@ -1,113 +1,27 @@
 ﻿<?php include 'layout/header.php'; ?>
 
     <main class="main">
-        <section class="home-slider position-relative pt-50">
+        <section class="home-slider position-relative">
             <div class="hero-slider-1 dot-style-1 dot-style-1-position-1">
                 <div class="single-hero-slider single-animation-wrap">
-                    <!-- <div class="container">
-                        <div class="row align-items-center slider-animated-1">
-                            <div class="col-lg-5 col-md-6">
-                                <div class="hero-slider-content-2">
-                                    <h4 class="animated">Trade-in offer</h4>
-                                    <h2 class="animated fw-900">Supper value deals</h2>
-                                    <h1 class="animated fw-900 text-brand">On all products</h1>
-                                    <p class="animated">Save more with coupons & up to 70% off</p>
-                                    <a class="animated btn btn-brush btn-brush-3" href="shop-product-right.html"> Shop Now </a>
-                                </div>
-                            </div>
-                            <div class="col-lg-7 col-md-6">
-                                <div class="single-slider-img single-slider-img-1">
-                                    <img class="animated slider-1-1" src="assets/imgs/slider/slider-1.png" alt="">
-                                </div>
-                            </div>
-                        </div>
-                    </div> -->
-                 <img class="animated slider-1-1" src="assets/imgs/slider/slider-1.webp" alt="">
+                    <img class="animated slider-1-1" src="assets/imgs/slider/slider-1.webp" alt="">
                 </div>
 
                 <div class="single-hero-slider single-animation-wrap">
-                    <!-- <div class="container">
-                        <div class="row align-items-center slider-animated-1">
-                            <div class="col-lg-5 col-md-6">
-                                <div class="hero-slider-content-2">
-                                    <h4 class="animated">Trade-in offer</h4>
-                                    <h2 class="animated fw-900">Supper value deals</h2>
-                                    <h1 class="animated fw-900 text-brand">On all products</h1>
-                                    <p class="animated">Save more with coupons & up to 70% off</p>
-                                    <a class="animated btn btn-brush btn-brush-3" href="shop-product-right.html"> Shop Now </a>
-                                </div>
-                            </div>
-                            <div class="col-lg-7 col-md-6">
-                                <div class="single-slider-img single-slider-img-1">
-                                    <img class="animated slider-1-1" src="assets/imgs/slider/slider-1.png" alt="">
-                                </div>
-                            </div>
-                        </div>
-                    </div> -->
-                 <img class="animated slider-1-1" src="assets/imgs/slider/slider-1.webp" alt="">
-                </div>
-
+                    <img class="animated slider-1-1" src="assets/imgs/slider/slider-5.jpg" alt="">
+                </div>                
                 <div class="single-hero-slider single-animation-wrap">
-                    <!-- <div class="container">
-                        <div class="row align-items-center slider-animated-1">
-                            <div class="col-lg-5 col-md-6">
-                                <div class="hero-slider-content-2">
-                                    <h4 class="animated">Trade-in offer</h4>
-                                    <h2 class="animated fw-900">Supper value deals</h2>
-                                    <h1 class="animated fw-900 text-brand">On all products</h1>
-                                    <p class="animated">Save more with coupons & up to 70% off</p>
-                                    <a class="animated btn btn-brush btn-brush-3" href="shop-product-right.html"> Shop Now </a>
-                                </div>
-                            </div>
-                            <div class="col-lg-7 col-md-6">
-                                <div class="single-slider-img single-slider-img-1">
-                                    <img class="animated slider-1-1" src="assets/imgs/slider/slider-1.png" alt="">
-                                </div>
-                            </div>
-                        </div>
-                    </div> -->
-                 <img class="animated slider-1-1" src="assets/imgs/slider/slider-1.webp" alt="">
+                    <img class="animated slider-1-1" src="assets/imgs/slider/slider-2.jpg" alt="">
                 </div>
-                <!-- <div class="single-hero-slider single-animation-wrap">
-                    <div class="container">
-                        <div class="row align-items-center slider-animated-1">
-                            <div class="col-lg-5 col-md-6">
-                                <div class="hero-slider-content-2">
-                                    <h4 class="animated">Hot promotions</h4>
-                                    <h2 class="animated fw-900">Fashion Trending</h2>
-                                    <h1 class="animated fw-900 text-7">Great Collection</h1>
-                                    <p class="animated">Save more with coupons & up to 20% off</p>
-                                    <a class="animated btn btn-brush btn-brush-2" href="shop-product-right.html"> Discover Now </a>
-                                </div>
-                            </div>
-                            <div class="col-lg-7 col-md-6">
-                                <div class="single-slider-img single-slider-img-1">
-                                    <img class="animated slider-1-2" src="assets/imgs/slider/slider-2.png" alt="">
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+                
                 <div class="single-hero-slider single-animation-wrap">
-                    <div class="container">
-                        <div class="row align-items-center slider-animated-1">
-                            <div class="col-lg-5 col-md-6">
-                                <div class="hero-slider-content-2">
-                                    <h4 class="animated">Upcoming Offer</h4>
-                                    <h2 class="animated fw-900">Big Deals From</h2>
-                                    <h1 class="animated fw-900 text-8">Manufacturer</h1>
-                                    <p class="animated">Clothing, Shoes, Bags, Wallets...</p>
-                                    <a class="animated btn btn-brush btn-brush-1" href="shop-product-right.html"> Shop Now </a>
-                                </div>
-                            </div>
-                            <div class="col-lg-7 col-md-6">
-                                <div class="single-slider-img single-slider-img-1">
-                                    <img class="animated slider-1-3" src="assets/imgs/slider/slider-3.png" alt="">
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div> -->
+                    <img class="animated slider-1-1" src="assets/imgs/slider/slider-3.jpg" alt="">
+                </div>
+                
+                <div class="single-hero-slider single-animation-wrap">
+                    <img class="animated slider-1-1" src="assets/imgs/slider/slider-4.jpg" alt="">
+                </div>
+                
             </div>
             <div class="slider-arrow hero-slider-1-arrow"></div>
         </section>
@@ -1492,22 +1406,20 @@
         </section>
         
         
-        <section class="bg-grey-9 section-padding">
-    <div class="video-container pt-25 pb-25">
-        <video 
-            autoplay 
-            loop 
-            muted 
-            playsinline 
-            style="width: 100%;">
-            <source src="assets/videos/video.mp4" type="video/mp4">
-        </video>
-    </div>
-</section>
+        <section class="video-banner">
+            <video autoplay muted loop playsinline class="banner-video">
+                <source src="assets/videos/video.mp4" type="video/mp4">
+            </video>
+            <div class="video-overlay"></div>
+            <div class="banner-content">
+                <h1>Crafting Marble with Precision</h1>
+                <p>From raw stone to refined design — UrbanFocal transforms natural marble into premium products for modern spaces.</p>
+            </div>
+        </section>
 
 
       <!-- Testimonials Section -->
-<section class="section-padding bg-grey-9">
+<section class="section-padding bg-grey-9 mt-3">
     <div class="container pb-20">
         <h3 class="section-title"><span>Client</span> Testimonials</h3>
         <div class="carausel-6-columns-cover position-relative">
