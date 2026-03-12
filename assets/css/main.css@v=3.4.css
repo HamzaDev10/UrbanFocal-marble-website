@@ -6519,7 +6519,7 @@ h6.post-title {
 }
 
 .mobile-header-wrapper-style .mobile-header-wrapper-inner .mobile-header-content-area .mobile-menu-wrap nav .mobile-menu li:hover > a {
-  color: #088178;
+  color: #c2171f;
 }
 
 .mobile-header-wrapper-style .mobile-header-wrapper-inner .mobile-header-content-area .categori-dropdown-wrap ul li a {
@@ -9502,7 +9502,8 @@ span.fi-rs-apps {
     border-bottom: 1px solid #e2e9e1;
   }
   .mobile-header-wrapper-style .mobile-header-wrapper-inner .mobile-header-top .mobile-header-logo a img {
-    width: 80px;
+    width: 115px;
+    height: 40px;
   }
   .mobile-header-wrapper-style .mobile-header-wrapper-inner .mobile-header-content-area {
     padding: 30px 20px;
