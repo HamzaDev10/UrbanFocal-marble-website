@@ -7,7 +7,7 @@
 
             </div>
 
-            <div class="col-md-6">
+            <div class="col-md-6 get-inTouchText">
                 <div class="contact-from-area padding-20-row-col wow FadeInUp animated" style="visibility: visible;">
 
                     <h5 class=""> UrbanFocal Marble </h5>

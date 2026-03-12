@@ -217,7 +217,7 @@
   opacity: 0.5;
 }
 
-testimonial-name {
+.testimonial-name {
   width: 75%;
   float: right;
 }
@@ -262,6 +262,26 @@ testimonial-name {
   .testimonial-carousel .testimonial-item {
     padding: 10px;
   }
+
+  /* contact */
+
+  .whyChose .card {
+  width: 100%;
+  margin-left: 0px;
+  
+}
+
+.whyChose {
+  padding: 30px 5px 5px 5px !important;
+}
+
+.get-inTouchText {
+
+  margin-top: 20px;
+
+}
+/* contact */
+
 }
 
 .logo-style {
