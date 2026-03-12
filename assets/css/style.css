@@ -614,3 +614,13 @@ testimonial-name {
   height: 450px;
   padding: 0px;
 }
+.footer-area{
+  background-color: #28375f;
+}
+.footer-area .section-padding{
+  padding: 40px 0px;
+}
+.footer-img{
+  height:70px;
+  width: 200px !important;
+}

@@ -1,85 +1,66 @@
-    <footer class="main">
+    <footer class="footer-area main">
         <section class="section-padding footer-mid">
             <div class="container pt-15 pb-20">
                 <div class="row">
                     <div class="col-lg-4 col-md-6">
                         <div class="widget-about font-md mb-md-5 mb-lg-0">
                             <div class="logo logo-width-1 wow fadeIn animated">
-                                <a href="index.html"><img src="assets/imgs/theme/logo.svg" alt="logo"></a>
+                                <a href="/"><img src="assets/imgs/logo/logo-light.png" class="footer-img" alt="logo"></a>
                             </div>
-                            <h5 class="mt-20 mb-10 fw-600 text-grey-4 wow fadeIn animated">Contact</h5>
-                            <p class="wow fadeIn animated">
-                                <strong>Address: </strong>562 Wellington Road, Street 32, San Francisco
-                            </p>
-                            <p class="wow fadeIn animated">
-                                <strong>Phone: </strong>+01 2222 365 /(+91) 01 2345 6789
-                            </p>
-                            <p class="wow fadeIn animated">
-                                <strong>Hours: </strong>10:00 - 18:00, Mon - Sat
-                            </p>
-                            <h5 class="mb-10 mt-30 fw-600 text-grey-4 wow fadeIn animated">Follow Us</h5>
-                            <div class="mobile-social-icon wow fadeIn animated mb-sm-5 mb-md-0">
-                                <a href="index.html#"><img src="assets/imgs/theme/icons/icon-facebook.svg" alt=""></a>
-                                <a href="index.html#"><img src="assets/imgs/theme/icons/icon-twitter.svg" alt=""></a>
-                                <a href="index.html#"><img src="assets/imgs/theme/icons/icon-instagram.svg" alt=""></a>
-                                <a href="index.html#"><img src="assets/imgs/theme/icons/icon-pinterest.svg" alt=""></a>
-                                <a href="index.html#"><img src="assets/imgs/theme/icons/icon-youtube.svg" alt=""></a>
+                            <div class="text-white">
+                                UrbanFocal Marble is a trusted supplier of premium marble products designed for modern homes and commercial spaces. We provide high-quality marble slabs, flooring solutions, countertops, and custom marble designs that combine durability with elegant aesthetics.
                             </div>
+                           <!-- Social media Icons -->
+                            <!-- <div class="mobile-social-icon wow fadeIn animated mb-sm-5 mb-md-0">
+                                <a href="/">
+                                    <i class="fa fa-instagram text-white" aria-hidden="true"></i>
+                                </a>
+                                <a href="/"><img src="assets/imgs/theme/icons/icon-twitter.svg" alt=""></a>
+                                <a href="/"><img src="assets/imgs/theme/icons/icon-instagram.svg" alt=""></a>
+                                <a href="/"><img src="assets/imgs/theme/icons/icon-pinterest.svg" alt=""></a>
+                                <a href="/"><img src="assets/imgs/theme/icons/icon-youtube.svg" alt=""></a>
+                            </div> -->
                         </div>
                     </div>
                     <div class="col-lg-2 col-md-3">
-                        <h5 class="widget-title wow fadeIn animated">About</h5>
+                        <h5 class="widget-title wow fadeIn animated text-white">Quick Links</h5>
                         <ul class="footer-list wow fadeIn animated mb-sm-5 mb-md-0">
-                            <li><a href="index.html#">About Us</a></li>
-                            <li><a href="index.html#">Delivery Information</a></li>
-                            <li><a href="index.html#">Privacy Policy</a></li>
-                            <li><a href="index.html#">Terms &amp; Conditions</a></li>
-                            <li><a href="index.html#">Contact Us</a></li>
-                            <li><a href="index.html#">Support Center</a></li>
+                            <li><a href="/" class="text-white">Home</a></li>
+                            <li><a href="/about.php" class="text-white">About Us</a></li>
+                            <li><a href="/shop.php" class="text-white">Shop</a></li>
+                            <li><a href="/contact.php" class="text-white">Contact Us</a></li>
                         </ul>
                     </div>
                     <div class="col-lg-2  col-md-3">
-                        <h5 class="widget-title wow fadeIn animated">My Account</h5>
-                        <ul class="footer-list wow fadeIn animated">
-                            <li><a href="index.html#">Sign In</a></li>
-                            <li><a href="index.html#">View Cart</a></li>
-                            <li><a href="index.html#">My Wishlist</a></li>
-                            <li><a href="index.html#">Track My Order</a></li>
-                            <li><a href="index.html#">Help</a></li>
-                            <li><a href="index.html#">Order</a></li>
+                        <h5 class="widget-title wow fadeIn animated text-white">Privacy Policy</h5>
+                        <ul class="footer-list wow fadeIn animated text-white">
+                            <li><a href="/" class="text-white">Privacy Policy</a></li>
+                            <li><a href="/" class="text-white">Terms &amp; Conditions</a></li>
+                            <li><a href="/" class="text-white">Shipping Policy</a></li>
                         </ul>
                     </div>
                     <div class="col-lg-4">
-                        <h5 class="widget-title wow fadeIn animated">Install App</h5>
-                        <div class="row">
-                            <div class="col-md-8 col-lg-12">
-                                <p class="wow fadeIn animated">From App Store or Google Play</p>
-                                <div class="download-app wow fadeIn animated">
-                                    <a href="index.html#" class="hover-up mb-sm-4 mb-lg-0"><img class="active" src="assets/imgs/theme/app-store.jpg" alt=""></a>
-                                    <a href="index.html#" class="hover-up"><img src="assets/imgs/theme/google-play.jpg" alt=""></a>
-                                </div>
-                            </div>
-                            <div class="col-md-4 col-lg-12 mt-md-3 mt-lg-0">
-                                <p class="mb-20 wow fadeIn animated">Secured Payment Gateways</p>
-                                <img class="wow fadeIn animated" src="assets/imgs/theme/payment-method.png" alt="">
-                            </div>
-                        </div>
+                        <h5 class="widget-title wow fadeIn animated text-white">Contact Information</h5>
+                        <p class="wow fadeIn animated text-white">
+                                <strong>Address: </strong>2nd Floor, Plot 41, Sector 23, Korangi Industrial Area, Karachi, Korangi, Karachi
+                            </p>
+                            <p class="wow fadeIn animated text-white">
+                                <strong>Phone: </strong> +1 678 780 2788
+                            </p>
+                            <p class="wow fadeIn animated text-white">
+                                <strong>Hours: </strong>24/7 Mon-Sat
+                            </p>
                     </div>
                 </div>
             </div>
         </section>
-        <div class="container pb-20 wow fadeIn animated">
+        <div class="container pb-10 wow fadeIn animated">
             <div class="row">
                 <div class="col-12 mb-20">
                     <div class="footer-bottom"></div>
                 </div>
-                <div class="col-lg-6">
-                    <p class="float-md-left font-sm text-muted mb-0">&copy; 2026, <strong class="text-brand">Evara</strong> - HTML Ecommerce Template </p>
-                </div>
-                <div class="col-lg-6">
-                    <p class="text-lg-end text-start font-sm text-muted mb-0">
-                        Designed by <a href="http://alithemes.com" target="_blank">Alithemes.com</a>. All rights reserved
-                    </p>
+                <div class="col-lg-12 text-center">
+                    <p class="text-white">© 2026 UrbanFocal Marble. All Rights Reserved.</p>
                 </div>
             </div>
         </div>
