@@ -280,7 +280,7 @@
   margin-top: 20px;
 
 }
-/* contact */
+/* end contact */
 
 }
 
@@ -559,9 +559,7 @@ testimonial-name {
 }
 
 .contact-us .contact-heading {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.6),
-      rgba(0, 0, 0, 0.6)), url('../imgs/banner/contact-banner.jpg');
-
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6),rgba(0, 0, 0, 0.6)), url('../imgs/banner/contact-banner.jpg');
   background-size: cover;
   background-position: center;
   height: 400px;
@@ -598,6 +596,43 @@ testimonial-name {
 
 /* end contact-us */
 
+
+/* shop */
+
+
+.shop .shop-heading {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6),rgba(0, 0, 0, 0.6)), url('../imgs/banner/shop-banner.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 400px;
+}
+
+.shop .shop .col-md-12 {
+  padding: 9.2rem;
+}
+
+.shop .breadcrumb-custom {
+  font-size: 16px;
+}
+
+.shop .breadcrumb-custom a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.shop .breadcrumb-custom a:hover {
+  text-decoration: underline;
+}
+
+.shop .breadcrumb-custom .separator {
+  margin: 0 6px;
+}
+
+/* end shop */
+
+.product-name a {
+  color: #000; 
+}
 
 
 /* Responsive adjustments */

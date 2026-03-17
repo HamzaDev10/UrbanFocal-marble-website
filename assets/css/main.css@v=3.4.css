@@ -232,6 +232,12 @@ input[type=number]:focus,
           box-shadow: none;
 }
 
+.bg-logo {
+
+  background-color: #c9161b;
+ 
+}
+
 .bg-grey-9 {
   background-color: #f4f5f9;
 }
@@ -279,7 +285,7 @@ input[type=number]:focus,
 }
 
 .text-brand {
-  color: #088178 !important;
+  color: #c9161b !important;
 }
 
 .text-primary {
@@ -727,7 +733,7 @@ strong,
   position: absolute;
   bottom: 0;
   left: 0;
-  background-color: #088178;
+  background-color: #c9161b;
 }
 
 .section-title span {
@@ -928,15 +934,26 @@ button.submit:hover, button[type='submit']:hover {
   border-radius: 4px;
   color: #fff;
   border: 1px solid #ca1218;
-  background-color: #088178;
+  background-color: #ca1218;
   cursor: pointer;
   -webkit-transition: all 300ms linear 0s;
   transition: all 300ms linear 0s;
   letter-spacing: 0.5px;
 }
 
+.single-post a {
+    color: #000;
+}
+
+.widget-category .theiaStickySidebar {
+
+  border: ;
+
+} 
+
 .btn:hover, .button:hover {
-  background-color: #ca1218;
+  /* background-color: #ca1218; */
+  border: 1px solid #ca1218;
 }
 
 .btn.btn-sm, .button.btn-sm {
@@ -1326,8 +1343,8 @@ label {
 }
 
 .custome-checkbox input[type="checkbox"]:checked + .form-check-label::before {
-  background-color: #088178;
-  border-color: #088178;
+  background-color: #c9161b;
+  border-color: #c9161b;
 }
 
 .custome-checkbox input[type="checkbox"]:checked + .form-check-label::after {
@@ -3475,13 +3492,20 @@ table .product-thumbnail img {
   height: 40px;
   line-height: 44px;
   border-radius: 50px;
-  background-color: #e8f6ea;
+  background-color: rgba(202, 18, 24, 0.2);
   text-align: center;
   margin-right: 3px;
   position: relative;
   display: inline-block;
-  border: 1px solid #cce7d0;
+  border: 1px solid rgba(202, 18, 24, 0.2);
 }
+
+ .bg-logo i {
+
+  color: #c9161b;
+
+
+ }
 
 .product-cart-wrap .product-action-1 button.small, .product-cart-wrap .product-action-1 a.action-btn.small {
   width: 32px;
@@ -3493,6 +3517,8 @@ table .product-thumbnail img {
   font-size: 12px;
 }
 
+
+
 .product-cart-wrap .product-action-1 button:after, .product-cart-wrap .product-action-1 a.action-btn:after {
   bottom: 100%;
   left: 50%;
@@ -3502,7 +3528,7 @@ table .product-thumbnail img {
   font-size: 11px;
   padding: 7px 10px;
   color: #ffffff;
-  background-color: #088178;
+  background-color: #c9161b;
   content: attr(aria-label);
   line-height: 1.3;
   -webkit-transition-delay: .1s;
@@ -3543,7 +3569,7 @@ table .product-thumbnail img {
 }
 
 .product-cart-wrap .product-action-1 button:hover, .product-cart-wrap .product-action-1 a.action-btn:hover {
-  background-color: #088178;
+  background-color: #c9161b;
   border: 1px solid transparent;
 }
 
@@ -3596,7 +3622,7 @@ table .product-thumbnail img {
 }
 
 .product-cart-wrap .product-badges span.hot {
-  background-color: #ff75a0;
+  background-color: #c9161b;
 }
 
 .product-cart-wrap .product-badges span.new {
@@ -3648,7 +3674,7 @@ table .product-thumbnail img {
 .product-cart-wrap .product-content-wrap .product-price span {
   font-size: 18px;
   font-weight: bold;
-  color: #088178;
+  color: #c9161b;
 }
 
 .product-cart-wrap .product-content-wrap .product-price span.new-price {
@@ -3875,7 +3901,7 @@ table .product-thumbnail img {
   border: none;
   height: 4px;
   border-radius: 0px;
-  background: #088178;
+  background: #c9161b;
   color: #088178;
 }
 
@@ -3891,7 +3917,7 @@ table .product-thumbnail img {
   width: 14px;
   height: 14px;
   line-height: 10px;
-  background: #088178;
+  background: #c9161b;
   border: none;
   border-radius: 100%;
   top: -5px;
@@ -4103,7 +4129,7 @@ table .product-thumbnail img {
   top: 5px;
   left: 10px;
   font-size: 12px;
-  color: #088178;
+  color: #c9161b;
   font-family: 'uicons-regular-straight'  !important;
   font-weight: 900;
 }
@@ -4113,8 +4139,8 @@ table .product-thumbnail img {
 }
 
 .sort-by-dropdown ul li a:hover {
-  background-color: #088178;
-  color: #ffffff;
+  background-color: #c9161b;
+  color: #ffffff !important;
 }
 
 /*Product list*/
@@ -7588,6 +7614,8 @@ span.fi-rs-apps {
   margin: 0 5px;
 }
 
+.pagination { float: right; }
+
 .pagination-area .page-item:first-child {
   margin-left: 0;
 }
@@ -7603,8 +7631,8 @@ span.fi-rs-apps {
 }
 
 .pagination-area .page-item.active .page-link, .pagination-area .page-item:hover .page-link {
-  color: #fff;
-  background: #088178;
+  color: #fff !important;
+  background-color: #c9161b;
 }
 
 .pagination-area .page-link {
