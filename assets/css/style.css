@@ -59,7 +59,7 @@
   font-weight: 600;
   color: #333;
   margin-bottom: 40px;
-  text-align: center;
+  text-align: left;
 }
 
 .section-title span {
@@ -371,7 +371,7 @@
   font-weight: 600;
   color: #333;
   margin-bottom: 40px;
-  text-align: center;
+  text-align: left;
 }
 
 .section-title span {
@@ -602,9 +602,26 @@ testimonial-name {
 
 .shop .shop-heading {
   background-image: linear-gradient(rgba(0, 0, 0, 0.6),rgba(0, 0, 0, 0.6)), url('../imgs/banner/shop-banner.jpg');
+  
   background-size: cover;
   background-position: center;
   height: 400px;
+}
+
+.about .about-heading {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6),rgba(0, 0, 0, 0.6)), url('../imgs/banner/about-us.png');
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+}
+
+.about .breadcrumb-custom {
+    font-size: 16px;
+}
+
+.about .breadcrumb-custom a {
+    color: #fff;
+    text-decoration: none;
 }
 
 .shop .shop .col-md-12 {

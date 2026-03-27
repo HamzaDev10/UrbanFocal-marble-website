@@ -20,6 +20,6 @@
     <script src="assets/js/plugins/jquery.elevatezoom.js"></script>
     <script src="assets/js/main.js@v=3.4"></script>
     <script src="assets/js/shop.js@v=3.4"></script>
-    
+    <script src="assets/js/customJs/contact.js"></script>    
 </body>
 </html>
