@@ -1,17 +1,5 @@
 <?php include 'layout/header.php'; ?>
 
-<style>
-
-.zoomContainer {
-    
-    width: 571px !important;
-}
-
-
-
-
-
-
  <main class="main product">
         <div class="page-header breadcrumb-wrap">
             <div class="container">
