@@ -118,9 +118,9 @@
                         <ul>
                             <li><a class="active" href="index.php">Home</a></li>
                             <li><a href="shop.php">Shop</a>
-                                <ul class="sub-menu">
+                                <!-- <ul class="sub-menu">
                                             <li><a href="shop-grid-right.html">Shop Grid – Right Sidebar</a></li>
-                                        </ul>
+                                        </ul> -->
                             </li>
                             <li><a href="about.php">About</a></li>
                             <li><a href="contact.php">Contact Us</a></li>

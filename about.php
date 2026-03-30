@@ -1,16 +1,6 @@
 ﻿<?php include 'layout/header.php'; ?>
 
-<style>
 
-.our-company .img-sectin img {
-
-  height: 580px;
-  width: 100%;
-  border-radius: 10px;
-
-}
- 
-</style>
 
 
     <main class="main single-page about">
@@ -24,7 +14,7 @@
                 </div>
             </div>
        </div>
-        <div class="page-header breadcrumb-wrap">
+        <!-- <div class="page-header breadcrumb-wrap">
             <div class="container">
                 <div class="breadcrumb">
                     <a href="index.html" rel="nofollow">Home</a>
@@ -32,7 +22,7 @@
                     <span></span> About us
                 </div>
             </div>
-        </div>
+        </div> -->
         <section class="section-padding our-company">
             <div class="container pt-25">
                 <div class="row">

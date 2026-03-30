@@ -1,56 +1,5 @@
 ﻿<?php include 'layout/header.php'; ?>
 
-<style>
-
-  .shop  .product-img-action-wrap {
-        position: relative;
-        overflow: hidden;
-    }
-
-    /* Overlay background */
-  .shop  .overlay-cart {
-        position: absolute;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100%;
-
-        background: rgba(0, 0, 0, 0.6); /* black overlay */
-        
-        display: flex;
-        justify-content: center;
-        align-items: center;
-
-        opacity: 0;
-        visibility: hidden;
-        transition: 0.3s ease;
-    }
-
-    /* Show overlay on hover */
-  .shop  .product-img-action-wrap:hover .overlay-cart {
-        opacity: 1;
-        visibility: visible;
-    }
-
-    /* Cart button styling */
-  .shop  .cart-btn {
-        color: #fff;
-        font-size: 24px;
-        /* background: #28a745;  */
-        background-color: rgba(202, 18, 24, 0.3);
-        padding: 12px;
-        border-radius: 50%;
-        transition: 0.3s;
-    }
-
-    .cart-btn:hover {
-        background: #fff;
-        color: #000;
-    }
-
-
-</style>
-
 
 <main class="main shop">
         <div class="col-md-12 shop-heading d-flex align-items-center justify-content-center">

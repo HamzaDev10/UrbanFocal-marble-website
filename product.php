@@ -1,34 +1,16 @@
 <?php include 'layout/header.php'; ?>
 
- <style>
-  .product  .product-image-slider img {
-     
-    width:100%;
-    } 
+<style>
 
-   .product  .title-heading {
-    width: 25rem;
+.zoomContainer {
+    
+    width: 571px !important;
 }
 
-    .product .product-rate {
-        float: inline-end;
-    }
-
-    .product .font-xxs {
-        font-size: 12px;
-        font-weight: 100;
-    }
-
-        .slick-list {
-
-        border: 1px solid #eee;
 
 
-        } 
 
 
- 
-</style> 
 
  <main class="main product">
         <div class="page-header breadcrumb-wrap">
@@ -46,10 +28,10 @@
                     <div class="col-lg-12">
                         <div class="product-detail accordion-detail">
                             <div class="row mb-50">
-                                <div class="col-md-5 col-sm-12 col-xs-12">
+                                <!-- <div class="col-md-5 col-sm-12 col-xs-12">
                                     <div class="detail-gallery">
                                         <span class="zoom-icon"><i class="fi-rs-search"></i></span>
-                                        <!-- MAIN SLIDES -->
+                                        
                                         <div class="product-image-slider">
                                             <figure class="border-radius-10">
                                                 <img src="assets/imgs/shop/product-1-2.webp" alt="product image">
@@ -73,7 +55,7 @@
                                                 <img src="assets/imgs/shop/product-6-2.webp" alt="product image">
                                             </figure>
                                         </div>
-                                        <!-- THUMBNAILS -->
+                                       
                                         <div class="slider-nav-thumbnails pl-15 pr-15">
                                             <div><img src="assets/imgs/shop/product-1-2.webp" alt="product image"></div>
                                             <div><img src="assets/imgs/shop/product-2-1.webp" alt="product image"></div>
@@ -84,7 +66,7 @@
                                             <div><img src="assets/imgs/shop/product-7-1.webp" alt="product image"></div>
                                         </div>
                                     </div>
-                                    <!-- End Gallery -->
+                                    
                                     <div class="social-icons single-share">
                                         <ul class="text-grey-5 d-inline-block">
                                             <li><strong class="mr-10">Share this:</strong></li>
@@ -94,8 +76,28 @@
                                             <li class="social-linkedin"><a href="shop-product-right.html#"><img src="assets/imgs/theme/icons/icon-pinterest.svg" alt=""></a></li>
                                         </ul>
                                     </div>
-                                </div>
-                                <div class="col-md-7 col-sm-12 col-xs-12">
+                                </div> -->
+                                <div class="col-md-6 zoom-effect">
+
+      <!-- Main Image -->
+      <div class="zoom-box mb-3">
+        <img id="zoomImg" src="assets/imgs/shop/product-1-2.webp" alt="Product">
+      </div>
+
+      <!-- Thumbnails (Drag Enabled) -->
+      <div class="thumb-container d-flex gap-2">
+        <img class="thumb active" src="assets/imgs/shop/product-1-2.webp">
+        <img class="thumb" src="assets/imgs/shop/product-2-1.webp">
+        <img class="thumb" src="assets/imgs/shop/product-3-1.webp">
+        <img class="thumb" src="assets/imgs/shop/product-4-1.webp">
+        <img class="thumb" src="assets/imgs/shop/product-5-1.webp">
+        <img class="thumb" src="assets/imgs/shop/product-6-1.webp">
+        <img class="thumb" src="assets/imgs/shop/product-7-1.webp">
+        <img class="thumb" src="assets/imgs/shop/product-8-1.webp">
+      </div>
+
+    </div>
+                                <div class="col-md-6 col-sm-12 col-xs-12">
                                     <div class="detail-info">
                                         <div class="title-heading">
                                         <h2 class="title-detail">Colorful Pattern Shirts HD450 </h2>
@@ -707,3 +709,87 @@
     
 
 <?php include 'layout/footer.php'; ?>
+
+<script>
+const img = document.getElementById("zoomImg");
+
+img.addEventListener("mousemove", function(e) {
+  const rect = img.getBoundingClientRect();
+  const x = (e.clientX - rect.left) / rect.width * 100;
+  const y = (e.clientY - rect.top) / rect.height * 100;
+
+  img.style.transformOrigin = `${x}% ${y}%`;
+  img.style.transform = "scale(2)";
+});
+
+img.addEventListener("mouseleave", function() {
+  img.style.transform = "scale(1)";
+});
+</script>
+
+<!-- Thumbnail Click -->
+<script>
+const thumbs = document.querySelectorAll(".thumb");
+const mainImg = document.getElementById("zoomImg");
+
+thumbs.forEach(thumb => {
+  thumb.addEventListener("click", () => {
+    mainImg.src = thumb.src;
+
+    thumbs.forEach(t => t.classList.remove("active"));
+    thumb.classList.add("active");
+  });
+});
+</script>
+
+<!-- Drag (Mouse) -->
+<script>
+const slider = document.querySelector('.thumb-container');
+
+let isDown = false;
+let startX;
+let scrollLeft;
+
+slider.addEventListener('mousedown', (e) => {
+  isDown = true;
+  slider.classList.add('active');
+  startX = e.pageX - slider.offsetLeft;
+  scrollLeft = slider.scrollLeft;
+});
+
+slider.addEventListener('mouseleave', () => {
+  isDown = false;
+  slider.classList.remove('active');
+});
+
+slider.addEventListener('mouseup', () => {
+  isDown = false;
+  slider.classList.remove('active');
+});
+
+slider.addEventListener('mousemove', (e) => {
+  if (!isDown) return;
+  e.preventDefault();
+
+  const x = e.pageX - slider.offsetLeft;
+  const walk = (x - startX) * 2;
+  slider.scrollLeft = scrollLeft - walk;
+});
+</script>
+
+<!-- Touch (Mobile Swipe) -->
+<script>
+let startTouchX = 0;
+let scrollStart;
+
+slider.addEventListener("touchstart", (e) => {
+  startTouchX = e.touches[0].pageX;
+  scrollStart = slider.scrollLeft;
+});
+
+slider.addEventListener("touchmove", (e) => {
+  const x = e.touches[0].pageX;
+  const walk = (x - startTouchX) * 2;
+  slider.scrollLeft = scrollStart - walk;
+});
+</script>

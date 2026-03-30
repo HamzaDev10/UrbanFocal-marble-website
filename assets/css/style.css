@@ -645,11 +645,157 @@ testimonial-name {
   margin: 0 6px;
 }
 
+
+  .shop  .product-img-action-wrap {
+        position: relative;
+        overflow: hidden;
+    }
+
+    /* Overlay background */
+  .shop  .overlay-cart {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+
+        background: rgba(0, 0, 0, 0.6); /* black overlay */
+        
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        opacity: 0;
+        visibility: hidden;
+        transition: 0.3s ease;
+    }
+
+    /* Show overlay on hover */
+  .shop  .product-img-action-wrap:hover .overlay-cart {
+        opacity: 1;
+        visibility: visible;
+    }
+
+    /* Cart button styling */
+  .shop  .cart-btn {
+        color: #fff;
+        font-size: 24px;
+        /* background: #28a745;  */
+        background-color: rgba(202, 18, 24, 0.3);
+        padding: 12px;
+        border-radius: 50%;
+        transition: 0.3s;
+    }
+
+    .shop .cart-btn:hover {
+        background: #fff;
+        color: #000;
+    }
+
 /* end shop */
+
+
+/* product */
 
 .product-name a {
   color: #000; 
 }
+
+
+
+.product .product-image-slider img {
+     
+    width:100%;
+    } 
+
+   .product .title-heading {
+    width: 25rem;
+}
+
+    .product .product-rate {
+        float: inline-end;
+    }
+
+    .product .font-xxs {
+        font-size: 12px;
+        font-weight: 100;
+    }
+
+      .product .slick-list {
+        border: 1px solid #eee;
+
+        } 
+
+        .product .zoom-effect .zoom-box {
+  overflow: hidden;
+  border-radius: 10px;
+  cursor: zoom-in;
+}
+
+.product .zoom-effect .zoom-box img {
+  width: 100%;
+  transition: transform 0.2s ease;
+}
+
+/* Thumbnail Container */
+.product .zoom-effect .thumb-container {
+  overflow-x: auto;
+  scroll-behavior: smooth;
+  cursor: grab;
+}
+
+.product .zoom-effect .thumb-container::-webkit-scrollbar {
+  display: none;
+}
+
+.product .zoom-effect .thumb-container.active {
+  cursor: grabbing;
+}
+
+/* Thumbnails */
+.product .zoom-effect .thumb {
+  width: 70px;
+  height: 70px;
+  object-fit: cover;
+  cursor: pointer;
+  border-radius: 6px;
+  border: 2px solid transparent;
+  transition: 0.2s;
+  user-select: none;
+}
+
+.product .zoom-effect .thumb:hover {
+  border-color: #dc3545;
+}
+
+.product .zoom-effect .thumb.active {
+  border-color: #dc3545;
+}
+
+/* Product Styling */
+.product .zoom-effect .price {
+  color: #dc3545;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.product .zoom-effect .old-price {
+  text-decoration: line-through;
+  color: gray;
+}
+
+        /* end product */
+
+        /* About */
+        .about .our-company .img-sectin img {
+
+  height: 580px;
+  width: 100%;
+  border-radius: 10px;
+
+}
+
+/* end about */
 
 
 /* Responsive adjustments */

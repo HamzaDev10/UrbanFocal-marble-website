@@ -240,8 +240,6 @@ if ( typeof Object.create !== 'function' ) {
 						+ "width:"+ String(self.options.lensSize) +"px;"
 						+ "height:"+ String(self.options.lensSize)+"px;"
 						+ "background-repeat: no-repeat;position: absolute;";
-
-
 				}
 
 
