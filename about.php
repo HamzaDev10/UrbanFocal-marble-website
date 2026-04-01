@@ -14,15 +14,6 @@
                 </div>
             </div>
        </div>
-        <!-- <div class="page-header breadcrumb-wrap">
-            <div class="container">
-                <div class="breadcrumb">
-                    <a href="index.html" rel="nofollow">Home</a>
-                    <span></span> Pages
-                    <span></span> About us
-                </div>
-            </div>
-        </div> -->
         <section class="section-padding our-company">
             <div class="container pt-25">
                 <div class="row">

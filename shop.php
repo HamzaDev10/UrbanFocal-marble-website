@@ -293,9 +293,10 @@
                                         </div>
                                         <div class="product-action-1 show ">
                                             <!-- hover-up -->
-                                            <a aria-label="Add To Cart" class="action-btn  bg-logo" href="cart.php"><i class="fi-rs-shopping-bag-add"></i></a>
+                                            <a aria-label="Add To Cart" class="action-btn bg-logo" href="cart.php"><i class="fi-rs-shopping-bag-add"></i></a>
                                         </div>
                                     </div>
+                                    
                                 </div>
                             </div>
 
@@ -387,18 +388,13 @@
                                             </a>
                                         </div>
 
-                                        
-                                        <div class="product-action-1">
-
-                                        <a aria-label="Add To Cart" class="action-btn  bg-logo" href="cart.php"><i class="fi-rs-shopping-bag-add"></i></a>
-                                            
-                                            <!-- <a aria-label="Quick view" class="action-btn hover-up" data-bs-toggle="modal" data-bs-target="#quickViewModal"><i class="fi-rs-search"></i></a>
-                                            <a aria-label="Add To Wishlist" class="action-btn hover-up" href="shop-wishlist.html"><i class="fi-rs-heart"></i></a>
-                                            <a aria-label="Compare" class="action-btn hover-up" href="shop-compare.html"><i class="fi-rs-shuffle"></i></a> -->
+                                        <div class="overlay-cart bg-logo">
+                                            <div class="product-action-1">
+                                                <a aria-label="Add To Cart" class="action-btn  bg-logo" href="cart.php"><i class="fi-rs-shopping-bag-add"></i></a>
+                                            </div>
                                         </div>
                                         
                                     </div>
-
                                     <div class="product-content-wrap">
                                         <div class="product-category">
                                             <a href="shop-grid-right.html">Music</a>
@@ -420,6 +416,8 @@
                                     </div>
                                 </div>
                             </div>
+
+                            
                         </div>
                         <!--pagination-->
                         <div class="pagination-area mt-15 mb-sm-5 mb-lg-0">

@@ -10,16 +10,6 @@
                             <div class="text-white">
                                 UrbanFocal Marble is a trusted supplier of premium marble products designed for modern homes and commercial spaces. We provide high-quality marble slabs, flooring solutions, countertops, and custom marble designs that combine durability with elegant aesthetics.
                             </div>
-                           <!-- Social media Icons -->
-                            <!-- <div class="mobile-social-icon wow fadeIn animated mb-sm-5 mb-md-0">
-                                <a href="/">
-                                    <i class="fa fa-instagram text-white" aria-hidden="true"></i>
-                                </a>
-                                <a href="/"><img src="assets/imgs/theme/icons/icon-twitter.svg" alt=""></a>
-                                <a href="/"><img src="assets/imgs/theme/icons/icon-instagram.svg" alt=""></a>
-                                <a href="/"><img src="assets/imgs/theme/icons/icon-pinterest.svg" alt=""></a>
-                                <a href="/"><img src="assets/imgs/theme/icons/icon-youtube.svg" alt=""></a>
-                            </div> -->
                         </div>
                     </div>
                     <div class="col-lg-2 col-md-3">
